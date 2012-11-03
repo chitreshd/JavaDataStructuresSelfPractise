@@ -111,8 +111,8 @@ public class LinkedList<T>
     
     protected class Link
     {
-        private T data;
-        private Link next;
+        protected T data;
+        protected Link next;
     }
 
     @Override
